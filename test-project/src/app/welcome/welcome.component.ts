@@ -11,7 +11,7 @@ export class WelcomeComponent implements OnInit {
   constructor() {
     setInterval(() => {
       this.display++;
-    }, 2000);
+    }, 1000);
   }
 
   ngOnInit() {
